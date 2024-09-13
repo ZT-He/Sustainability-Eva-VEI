@@ -30,6 +30,18 @@
       margin-top: 10px;
       font-weight: bold;
     }
+        /* Centering <h3> headings */
+    h3 {
+      text-align: center;
+      margin-top: 10px; /* Adjust as needed */
+      margin-bottom: 10px; /* Adjust as needed */
+    }
+    /* Styling for the conclusion sentences */
+    p.conclusion {
+      text-align: center;
+      margin-top: 10px;
+      font-weight: bold;
+    }
   </style>
 </head>
 <body>
@@ -40,7 +52,7 @@
 
   <!-- Title for the first video -->
   <h2>Use Case 1: Intersection Scenario</h2>
-  <h3>Vehicle Controlled by CAP without V2X in Intersection</h3>
+  <h3>Vehicle Controlled by CAP without V2X</h3>
   <video width="600" controls>
     <source src="UseCase1-cap-v2x-disabled-collision.mp4" type="video/mp4">
     Your browser does not support the video tag.
@@ -48,7 +60,7 @@
   <p class="conclusion">This video demonstrates a collision due to the absence of V2X.</p>
 
   <!-- Title for the second video -->
-  <h3>Vehicle Controlled by CAP with V2X in Intersection</h3>
+  <h3>Vehicle Controlled by CAP with V2X</h3>
   <video width="600" controls>
     <source src="UseCase1-cap-v2x-enabled-collision.mp4" type="video/mp4">
     Your browser does not support the video tag.
@@ -56,12 +68,38 @@
   <p class="conclusion">This video demonstrates improved safety with V2X enabled.</p>
 
   <!-- Title for the third video -->
-  <h3>Vehicle Controlled by MPC in Intersection</h3>
+  <h3>Vehicle Controlled by MPC</h3>
   <video width="600" controls>
     <source src="UseCase1-mpc-no-collision.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <p class="conclusion">This video demonstrates no collision due to advanced MPC control.</p>
 
+  <!-- Title for the fourth video -->
+  <h2>Use Case 2: Straight Road Scenario</h2>
+  <h3>Vehicle Controlled by CAP without V2X</h3>
+  <video width="600" controls>
+    <source src="UseCase2-cap-v2x-disabled-collision.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <p class="conclusion">This video demonstrates a collision when the vehicle is under the developed CAP but without V2X.</p>
+
+  <!-- Title for the fifth video -->
+  <h3>Vehicle Controlled by CAP with V2X</h3>
+  <video width="600" controls>
+    <source src="UseCase2-cap-v2x-enabled-no-collision.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <p class="conclusion">This video demonstrates improved safety with V2X enabled.</p>
+
+  <!-- Title for the sixth video -->
+  <h3>Vehicle Controlled by MPC</h3>
+  <video width="600" controls>
+    <source src="UseCase2-mpc-no-collision.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <p class="conclusion">This video demonstrates no collision due to advanced MPC control.</p>
+
+  
 </body>
 </html>
